@@ -64,7 +64,8 @@ Table of Contents
 
 **Figures and Tables**
 
-[![Tools and Services Market Landscape](../figures/aws-market-landscape-320px.png)](#tools-and-services-market-landscape) [![AWS Data Transfer Costs](../figures/aws-data-transfer-costs-320px.png)](#aws-data-transfer-costs)
+[![Tools and Services Market Landscape](../figures/aws-market-landscape-320px.png)](#tools-and-services-market-landscape) [![
+Transfer Costs](../figures/aws-data-transfer-costs-320px.png)](#aws-data-transfer-costs)
 
 -	[Figure: Tools and Services Market Landscape](#tools-and-services-market-landscape): A selection of third-party companies/products
 -	[Figure: AWS Data Transfer Costs](#aws-data-transfer-costs): Visual overview of data transfer costs
@@ -1334,7 +1335,7 @@ Billing and Cost Management
 	-	🔸*Using public IPs when not necessary:* If you use an Elastic IP or public IP address of an EC2 instance, you will incur network costs, even if it is accessed locally within the AZ.
 -	This figure gives an overview:
 
-![AWS Data Transfer Costs](figures/aws-data-transfer-costs.png)
+![AWS Data Transfer Costs](../figures/aws-data-transfer-costs.png)
 
 ### EC2 Cost Management
 
