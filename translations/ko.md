@@ -1,4 +1,4 @@
-![An Open Guide](figures/signpost-horiz1-1600.jpg)
+![An Open Guide](../figures/signpost-horiz1-1600.jpg)
 
 The Open Guide to Amazon Web Services
 =====================================
@@ -64,7 +64,7 @@ Table of Contents
 
 **Figures and Tables**
 
-[![Tools and Services Market Landscape](figures/aws-market-landscape-320px.png)](#tools-and-services-market-landscape) [![AWS Data Transfer Costs](figures/aws-data-transfer-costs-320px.png)](#aws-data-transfer-costs)
+[![Tools and Services Market Landscape](../figures/aws-market-landscape-320px.png)](#tools-and-services-market-landscape) [![AWS Data Transfer Costs](../figures/aws-data-transfer-costs-320px.png)](#aws-data-transfer-costs)
 
 -	[Figure: Tools and Services Market Landscape](#tools-and-services-market-landscape): A selection of third-party companies/products
 -	[Figure: AWS Data Transfer Costs](#aws-data-transfer-costs): Visual overview of data transfer costs
@@ -246,7 +246,7 @@ There are now enough cloud and “big data” enterprise companies and products 
 
 We’ve assembled a landscape of a few of the services. This is far from complete, but tries to emphasize services that are popular with AWS practitioners — services that specifically help with AWS, or a complementary, or tools almost anyone using AWS must learn.
 
-![Popular Tools and Services for AWS Practitioners](figures/aws-market-landscape.png)
+![Popular Tools and Services for AWS Practitioners](../figures/aws-market-landscape.png)
 
 🚧 *Suggestions to improve this figure? Please [file an issue](CONTRIBUTING.md).*
 
