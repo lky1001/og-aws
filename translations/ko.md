@@ -10,11 +10,11 @@
 컨텐츠 목록
 -----------------
 
-**Purpose**
+**목적**
 
--	[Why an Open Guide?](#why-an-open-guide)
--	[Scope](#scope)
--	[Legend](#legend)
+-	[왜 오픈 가이드인가?](#why-an-open-guide)
+-	[다루는 범위](#scope)
+-	[범례](#legend)
 
 **AWS in General**
 
