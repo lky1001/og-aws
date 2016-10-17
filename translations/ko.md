@@ -1,13 +1,13 @@
 ![An Open Guide](../figures/signpost-horiz1-1600.jpg)
 
-The Open Guide to Amazon Web Services
+아마존 웹 서비스 오픈 가이드
 =====================================
 
-[![Slack Chat](https://img.shields.io/badge/Chat-Slack-ff69b4.svg "Join us. Anyone is welcome!")](https://og-aws.slack.lexikon.io/) [![Ask a Question](https://img.shields.io/badge/%3f-Ask%20a%20Question-dc9d47.svg "Questions help improve the Guide")](https://airtable.com/shrXZ61VrovWfXYBg)
+[![슬랙 채널](https://img.shields.io/badge/Chat-Slack-ff69b4.svg "Join us. Anyone is welcome!")](https://og-aws.slack.lexikon.io/) [![질문하기](https://img.shields.io/badge/%3f-Ask%20a%20Question-dc9d47.svg "Questions help improve the Guide")](https://airtable.com/shrXZ61VrovWfXYBg)
 
-[Credits](AUTHORS.md) ∙ [Contributing guidelines](CONTRIBUTING.md)
+[저자목록](AUTHORS.md) ∙ [참여 가이드라인](CONTRIBUTING.md)
 
-Table of Contents
+컨텐츠 목록
 -----------------
 
 **Purpose**
