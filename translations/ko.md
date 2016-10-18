@@ -57,18 +57,18 @@
 -	[결제 및 비용 관리](#billing-and-cost-management)
 -	[추천 읽을 거리](#further-reading)
 
-**Legal**
+**법적고지**
 
 -	[Disclaimer](#disclaimer)
--	[License](#license)
+-	[라이센스](#license)
 
-**Figures and Tables**
+**그림과 표**
 
 [![Tools and Services Market Landscape](../figures/aws-market-landscape-320px.png)](#tools-and-services-market-landscape) [![
 Transfer Costs](../figures/aws-data-transfer-costs-320px.png)](#aws-data-transfer-costs)
 
--	[Figure: Tools and Services Market Landscape](#tools-and-services-market-landscape): A selection of third-party companies/products
--	[Figure: AWS Data Transfer Costs](#aws-data-transfer-costs): Visual overview of data transfer costs
+-	[그림: 툴과 서비스 시장 현황](#tools-and-services-market-landscape): 써드파티 회사/제품의 선택
+-	[그림: AWS 데이터 전송 요금](#aws-data-transfer-costs): Visual overview of data transfer costs
 -	[Table: Service Matrix](#service-matrix): How AWS services compare to alternatives
 -	[Table: AWS Product Maturity and Releases](#aws-product-maturity-and-releases): AWS product releases
 -	[Table: Storage Durability, Availability, and Price](#storage-durability-availability-and-price): A quantitative comparison
