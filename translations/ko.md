@@ -16,12 +16,12 @@
 -	[다루는 범위](#scope)
 -	[범례](#legend)
 
-**AWS in General**
+**아마존 웹 서비스 기본**
 
--	[General Information](#general-information)
--	[Learning and Career Development](#learning-and-career-development)
--	[Managing AWS](#managing-aws)
--	[Managing Servers and Applications](#managing-servers-and-applications)
+-	[기본 정보](#general-information)
+-	[학습 및 커리어 개발](#learning-and-career-development)
+-	[AWS 관리](#managing-aws)
+-	[서버 및 애플리케이션 관리](#managing-servers-and-applications)
 
 | Specific AWS Services                 | Basics                         | Tips                          | Gotchas                                        |
 |---------------------------------------|--------------------------------|-------------------------------|------------------------------------------------|
