@@ -51,11 +51,11 @@
 | [Redshift](#redshift) | [📗](#redshift-basics) | [📘](#redshift-tips) | [📙](#redshift-gotchas-and-limitations) |
 | [EMR](#emr) | [📗](#emr-basics) | [📘](#emr-tips) | [📙](#emr-gotchas-and-limitations) |
 
-**Special Topics**
+**특별한 주제**
 
--	[High Availability](#high-availability)
--	[Billing and Cost Management](#billing-and-cost-management)
--	[Further Reading](#further-reading)
+-	[고가용성](#high-availability)
+-	[결제 및 비용 관리](#billing-and-cost-management)
+-	[추천 읽을 거리](#further-reading)
 
 **Legal**
 
