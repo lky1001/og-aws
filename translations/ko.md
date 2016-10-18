@@ -23,7 +23,7 @@
 -	[AWS 관리](#managing-aws)
 -	[서버 및 애플리케이션 관리](#managing-servers-and-applications)
 
-| Specific AWS Services                 | Basics                         | Tips                          | Gotchas                                        |
+| AWS 서비스 항목                 | 기본                         | 팁                          | 잡다한 것                                        |
 |---------------------------------------|--------------------------------|-------------------------------|------------------------------------------------|
 | [Security and IAM](#security-and-iam) | [📗](#security-and-iam-basics) | [📘](#security-and-iam-tips) | [📙](#security-and-iam-gotchas-and-limitations) |
 | [S3](#s3) | [📗](#s3-basics) | [📘](#s3-tips) | [📙](#s3-gotchas-and-limitations) |
