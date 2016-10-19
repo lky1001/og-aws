@@ -68,8 +68,8 @@
 Transfer Costs](../figures/aws-data-transfer-costs-320px.png)](#aws-data-transfer-costs)
 
 -	[그림: 툴과 서비스 시장 현황](#tools-and-services-market-landscape): 써드파티 회사/제품의 선택
--	[그림: AWS 데이터 전송 요금](#aws-data-transfer-costs): Visual overview of data transfer costs
--	[Table: Service Matrix](#service-matrix): How AWS services compare to alternatives
+-	[그림: AWS 데이터 전송 요금](#aws-data-transfer-costs): 데이터 전송 비용 요약
+-	[표: 서비스 매트릭스](#service-matrix): AWS 서비스 대안 비교
 -	[Table: AWS Product Maturity and Releases](#aws-product-maturity-and-releases): AWS product releases
 -	[Table: Storage Durability, Availability, and Price](#storage-durability-availability-and-price): A quantitative comparison
 
