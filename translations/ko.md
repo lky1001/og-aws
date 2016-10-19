@@ -102,22 +102,22 @@ Scope
 	-	**Thoughtful:** The goal is to be helpful rather than present dry facts. Thoughtful opinion with rationale is welcome. Suggestions, notes, and opinions based on real experience can be extremely valuable. (We believe this is both possible with a guide of this format, unlike in some [other venues](http://meta.stackexchange.com/questions/201994/is-there-a-place-to-ask-opinion-based-questions).)
 -	This guide is not sponsored by AWS or AWS-affiliated vendors. It is written by and for engineers who use AWS.
 
-Legend
+범례
 ------
 
--	📒 Marks standard/official AWS pages and docs
--	🔹 Important or often overlooked tip
--	❗ Gotcha or warning (where risks or time or resource costs are significant)
--	🔸 Limitation or quirk (where it’s not quite so bad)
--	📜 Undocumented feature (folklore)
--	🐥 Relatively new (and perhaps immature) services or features
--	⏱ Performance discussions
--	⛓ Lock-in: Products or decisions that are likely to tie you to AWS in a new or significant way — that is, later moving to a non-AWS alternative would be costly in terms of engineering effort
--	🚪 Alternative non-AWS options
--	💸 Cost issues, discussion, and gotchas
--	🕍 A mild warning attached to “full solution” or opinionated frameworks that may take significant time to understand and/or might not fit your needs exactly; the opposite of a point solution (the cathedral is a nod to [Raymond’s metaphor](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)\)
--	📗📘📙 Colors indicate basics, tips, and gotchas, respectively.
--	🚧 Areas where correction or improvement are needed (possibly with link to an issue — do help!)
+-	📒 표준/공식 AWS 페이지 또는 문서
+-	🔹 중요하거나 때로 간과되기 쉬운 팁
+-	❗ 주의사항 및 경고 (리스크, 소요시간, 리소스 사용이 많을경우)
+-	🔸 제한사항 또는 변경점 (그다지 심각하지 않을 경우)
+-	📜 문서화 되지 않은 기능 (전승)
+-	🐥 비교적 신규 (그리고 불완전할 수 있는) 서비스 또는 기능
+-	⏱  성능에 대한 논의
+-	⛓  Lock-in: 당신이 AWS 를 쓰도록 만드는 제품 (추후 AWS 외의 다른 제품으로 이동할때 상당한 엔지니어링 비용이 들 것임)
+-	🚪 AWS 외의 옵션
+-	💸 비용에 대한 이슈, 논의, 주의사항
+-	🕍 통합 솔루션에 대한 주의사항 : 당신의 요구사항에 완전히 맞지 않거나, 이해하는데 시간이 많이 걸릴 수있음 (성당 아이콘은 [Raymond’s metaphor](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)\)에 대한 긍정의 표시에요)
+-	📗📘📙 각 색깔은 기본, 팁, 주의사항임.
+-	🚧 정정, 개선이 필요한 부분(이슈에 대한 링크가 있을 수 있음. 도와주세요!)
 
 General Information
 -------------------
