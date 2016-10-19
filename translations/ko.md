@@ -59,7 +59,7 @@
 
 **법적고지**
 
--	[책임의 한계](#disclaimer)
+-	[책임의 한계(Disclaimer)](#disclaimer)
 -	[라이센스](#license)
 
 **그림과 표**
