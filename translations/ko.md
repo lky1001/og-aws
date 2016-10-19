@@ -115,7 +115,7 @@ Scope
 -	⛓  Lock-in: 당신이 AWS 를 쓰도록 만드는 제품 (추후 AWS 외의 다른 제품으로 이동할때 상당한 엔지니어링 비용이 들 것임)
 -	🚪 AWS 외의 옵션
 -	💸 비용에 대한 이슈, 논의, 주의사항
--	🕍 통합 솔루션에 대한 주의사항 : 당신의 요구사항에 완전히 맞지 않거나, 이해하는데 시간이 많이 걸릴 수있음 (성당 아이콘은 [Raymond’s metaphor](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)\)에 대한 긍정의 표시에요)
+-	🕍 통합 솔루션에 대한 주의사항 : 당신의 요구사항에 완전히 맞지 않거나, 이해하는데 시간이 많이 걸릴 수있음 (성당 아이콘은 [Raymond’s metaphor](https://en.wikipedia.org/wiki/The_Cathedral_and_the_Bazaar)에 대한 긍정의 표시에요)
 -	📗📘📙 각 색깔은 기본, 팁, 주의사항임.
 -	🚧 정정, 개선이 필요한 부분(이슈에 대한 링크가 있을 수 있음. 도와주세요!)
 
