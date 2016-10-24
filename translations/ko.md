@@ -70,13 +70,13 @@ Transfer Costs](../figures/aws-data-transfer-costs-320px.png)](#aws-data-transfe
 -	[그림: 툴과 서비스 시장 현황](#tools-and-services-market-landscape): 써드파티 회사/제품의 선택
 -	[그림: AWS 데이터 전송 요금](#aws-data-transfer-costs): 데이터 전송 비용 요약
 -	[표: 서비스 매트릭스](#service-matrix): AWS 서비스 대안 비교
--	[Table: AWS Product Maturity and Releases](#aws-product-maturity-and-releases): AWS product releases
--	[Table: Storage Durability, Availability, and Price](#storage-durability-availability-and-price): A quantitative comparison
+-	[표: AWS 제품 성숙도 및 배포 현황](#aws-product-maturity-and-releases): AWS 제품 배포 현황
+-	[표: 저장소(스토리지) 내구성, 가용성, 가격](#storage-durability-availability-and-price): 정략적 비교
 
-Why an Open Guide?
+왜 오픈 가이드인가?
 ------------------
 
-A lot of information on AWS is already written. Most people learn AWS by reading a blog or a “[getting started guide](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)” and referring to the [standard AWS references](https://aws.amazon.com/documentation/). Nonetheless, trustworthy and practical information and recommendations aren’t easy to come by. AWS’s own documentation is a great but sprawling resource few have time to read fully, and it doesn’t include anything but official facts, so omits experiences of engineers. The information in blogs or [Stack Overflow](http://stackoverflow.com/questions/tagged/amazon-web-services) is also not consistently up to date.
+AWS에 대한 많은 정보들이 이미 작성되어 있습니다. 대부분의 사람들은 AWS를 블로그나 “[getting started guide](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)”를 읽고 AWS 레퍼런스 [standard AWS references](https://aws.amazon.com/documentation/)를 참조하여 배웁니다. Nonetheless, trustworthy and practical information and recommendations aren’t easy to come by. AWS’s own documentation is a great but sprawling resource few have time to read fully, and it doesn’t include anything but official facts, so omits experiences of engineers. The information in blogs or [Stack Overflow](http://stackoverflow.com/questions/tagged/amazon-web-services) is also not consistently up to date.
 
 This guide is by and for engineers who use AWS. It aims to be a useful, living reference that consolidates links, tips, gotchas, and best practices. It arose from discussion and editing over beers by [several engineers](AUTHORS.md) who have used AWS extensively.
 
