@@ -90,17 +90,17 @@ AWS에 대한 많은 정보들이 이미 작성되어 있습니다. 대부분의
 
 AWS에 대한 이야기할 [**슬랙 채널**](https://og-aws.slack.lexikon.io/)에 조인하여 도와주세요!(질문만 있는 사람도 누구나 환영입니다!), [**submitting a question**](https://airtable.com/shrXZ61VrovWfXYBg), or [**contributing to the guide**](CONTRIBUTING.md). This guide is *open to contributions*, so unlike a blog, it can keep improving. Like any open source effort, we combine efforts but also review to ensure high quality.
 
-Scope
+범위
 -----
 
--	Currently, this guide covers selected “core” services, such as EC2, S3, Load Balancers, EBS, and IAM, and partial details and tips around other services. We expect it to expand.
--	It is not a tutorial, but rather a collection of information you can read and return to. It is for both beginners and the experienced.
--	The goal of this guide is to be:
-	-	**Brief:** Keep it dense and use links
-	-	**Practical:** Basic facts, concrete details, advice, gotchas, and other “folk knowledge”
-	-	**Current:** We can keep updating it, and anyone can contribute improvements
-	-	**Thoughtful:** The goal is to be helpful rather than present dry facts. Thoughtful opinion with rationale is welcome. Suggestions, notes, and opinions based on real experience can be extremely valuable. (We believe this is both possible with a guide of this format, unlike in some [other venues](http://meta.stackexchange.com/questions/201994/is-there-a-place-to-ask-opinion-based-questions).)
--	This guide is not sponsored by AWS or AWS-affiliated vendors. It is written by and for engineers who use AWS.
+-	현재 이 문서는 선별된 "핵심" 서비스를 다루고 있습니다. EC2, S3, Load Balancers, EBS, IAM 등. 추후 더 많은 내용으로 확장 될 것입니다.
+-	이 문서는 튜토리얼이 아닙니다. 당신이 읽어볼 만한 정보의 집합입니다. 초보자와 숙련자 모두를 대상으로 합니다.
+-	이 가이드의 목표는:
+	-	**간결함:** 핵심적 문장으로 구성하고, 링크를 사용하세요.
+	-	**실용적:** 기본 사실, 구체적 내용, 어드바이스, 주의사항 그리고 "민간 지식"
+	-	**현재:** 우리는 지속적으로 업데이트 합니다. 그리고 누구나 개선에 기여할 수 있습니다.
+	-	**사려깊은:** 이 글의 목표는 건조한 사실들을 나열하기 보다 도움이 되는 내용을 전달하는 것입니다. 사려깊은 의견은 근거와 함께 제시해 주시면 좋겠습니다. 실제 경험에 의거한 제안, 기록, 의견 등은 매우 값어치 있습니다. (우리는 이것이 가이드된 형식에 의해 가능하다고 생각합니다. [옆동네](http://meta.stackexchange.com/questions/201994/is-there-a-place-to-ask-opinion-based-questions)와는 달리요.)
+-	이 가이드는 AWS 나 AWS에 연관된 단체에 스폰서 받지 않습니다. 이 문서는 AWS를 사용하는 엔지니어를 위해, 엔지니어에 의해 작성됩니다.
 
 범례
 ------
