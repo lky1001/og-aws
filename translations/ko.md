@@ -76,15 +76,15 @@ Transfer Costs](../figures/aws-data-transfer-costs-320px.png)](#aws-data-transfe
 왜 오픈 가이드인가?
 ------------------
 
-AWS에 대한 많은 정보들이 이미 작성되어 있습니다. 대부분의 사람들은 AWS를 블로그나 “[getting started guide](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)”를 읽고 AWS 레퍼런스 [standard AWS references](https://aws.amazon.com/documentation/)를 참조하여 배웁니다. 그럼에도 불구하고, 신뢰 할 수 있고 실용적인 정보는 구하기 쉽지 않다. AWS 자체 문서는 좋은 자료이지만 지엽적인 부분까지 광대하게 포괄하고 있어서 제대로 정독하기에는 시간이 오래 걸린다. 또한 공식적인 사실만 다루고 있어서 엔지니어의 경험적인 노하우 및 자료들을 얻을 수 없다. 블로그나 [Stack Overflow](http://stackoverflow.com/questions/tagged/amazon-web-services)의 정보도 항상 최신은 아니다.
+AWS에 대한 많은 정보들이 이미 작성되어 있습니다. 대부분의 사람들은 AWS를 블로그나 “[getting started guide](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)”를 읽고 AWS 레퍼런스 [standard AWS references](https://aws.amazon.com/documentation/)를 참조하여 배웁니다. 그럼에도 불구하고, 신뢰 할 수 있고 실용적인 정보는 구하기 쉽지 않다. AWS 자체 문서는 좋은 자료이지만 지엽적인 부분까지 광대하게 포괄하고 있어서 제대로 정독하기에는 시간이 오래 걸립니다. 또한 공식적인 사실만 다루고 있어서 엔지니어의 경험적인 노하우 및 자료들을 얻을 수 없습니다. 블로그나 [Stack Overflow](http://stackoverflow.com/questions/tagged/amazon-web-services)의 정보도 항상 최신은 아닙니다.
 
-이 가이드는 AWS를 사용하는 엔지니어를 위한 것 입니다. 이 문서는 링크, 팁, 주의사항, 실용적인 정보를 통합하여 일상에 참조가 되는 것을 목표로 하고 있습니다. 이 문서는 AWS를 폭넓게 사용하는 [개발자들](AUTHORS.md)에 의해서 비공식적인 토론과 수정 과정에서 제기되었다.
+이 가이드는 AWS를 사용하는 개발자들을 위한 것 입니다. 이 문서는 링크, 팁, 주의사항, 실용적인 정보를 통합하여 일상에 참조가 되는 것을 목표로 하고 있습니다. 이 문서는 AWS를 폭넓게 사용하는 [개발자들](AUTHORS.md)에 의해서 비공식적인 토론과 수정 과정에서 제기되었다.
 
 이 가이드를 이용하기 전에, [**라이센스**](#license)와 [**책임의 한계(disclaimer)**](#disclaimer)를 읽어보세요.
 
 ### 도움말!
 
-**이 문서는 초안입니다!** 이 문서는 이 정보들을 모으는 우리의 첫 시도이다. 따라서 오류나 누락이 있을 수 있다.
+**이 문서는 초안입니다!** 이 문서는 이 정보들을 모으는 우리의 첫 시도입니다. 따라서 오류나 누락이 있을 수 있습니다.
 
 [![Slack Chat](https://img.shields.io/badge/Chat-Slack-ff69b4.svg "Join us. Anyone is welcome!")](https://og-aws.slack.lexikon.io/) [![Ask a Question](https://img.shields.io/badge/%3f-Ask%20a%20Question-dc9d47.svg "Questions help improve the Guide")](https://airtable.com/shrXZ61VrovWfXYBg)
 
