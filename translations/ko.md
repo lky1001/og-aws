@@ -88,7 +88,7 @@ AWS에 대한 많은 정보들이 이미 작성되어 있습니다. 대부분의
 
 [![Slack Chat](https://img.shields.io/badge/Chat-Slack-ff69b4.svg "Join us. Anyone is welcome!")](https://og-aws.slack.lexikon.io/) [![Ask a Question](https://img.shields.io/badge/%3f-Ask%20a%20Question-dc9d47.svg "Questions help improve the Guide")](https://airtable.com/shrXZ61VrovWfXYBg)
 
-AWS에 대한 이야기할 [**슬랙 채널**](https://og-aws.slack.lexikon.io/)에 조인하여 도와주세요!(질문만 있는 사람도 누구나 환영입니다!), [**submitting a question**](https://airtable.com/shrXZ61VrovWfXYBg), or [**contributing to the guide**](CONTRIBUTING.md). This guide is *open to contributions*, so unlike a blog, it can keep improving. Like any open source effort, we combine efforts but also review to ensure high quality.
+AWS에 대한 이야기할 [**슬랙 채널**](https://og-aws.slack.lexikon.io/)에 조인하여 도와주세요!(질문만 있는 사람도 누구나 환영입니다!), [**질문 제출**](https://airtable.com/shrXZ61VrovWfXYBg) 또는 [**가이드에 기여하기**](CONTRIBUTING.md). 이 가이드는 블로그와 달리 기여(contributions)에 열려있고, 지속적으로 개선될 수 있습니다. 다른 오픈 소스들의 노력처럼, 우리는 결합하고, 품질을 유지하기 위해 리뷰할 것 입니다.
 
 Scope
 -----
