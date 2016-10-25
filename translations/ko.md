@@ -76,19 +76,19 @@ Transfer Costs](../figures/aws-data-transfer-costs-320px.png)](#aws-data-transfe
 왜 오픈 가이드인가?
 ------------------
 
-AWS에 대한 많은 정보들이 이미 작성되어 있습니다. 대부분의 사람들은 AWS를 블로그나 “[getting started guide](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)”를 읽고 AWS 레퍼런스 [standard AWS references](https://aws.amazon.com/documentation/)를 참조하여 배웁니다. Nonetheless, trustworthy and practical information and recommendations aren’t easy to come by. AWS’s own documentation is a great but sprawling resource few have time to read fully, and it doesn’t include anything but official facts, so omits experiences of engineers. The information in blogs or [Stack Overflow](http://stackoverflow.com/questions/tagged/amazon-web-services) is also not consistently up to date.
+AWS에 대한 많은 정보들이 이미 작성되어 있습니다. 대부분의 사람들은 AWS를 블로그나 “[getting started guide](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EC2_GetStarted.html)”를 읽고 AWS 레퍼런스 [standard AWS references](https://aws.amazon.com/documentation/)를 참조하여 배웁니다. 그럼에도 불구하고, 신뢰 할 수 있고 실용적인 정보는 구하기 쉽지 않다. AWS 자체 문서는 좋은 자료이지만 지엽적인 부분까지 광대하게 포괄하고 있어서 제대로 정독하기에는 시간이 오래 걸린다. 또한 공식적인 사실만 다루고 있어서 엔지니어의 경험적인 노하우 및 자료들을 얻을 수 없다. 블로그나 [Stack Overflow](http://stackoverflow.com/questions/tagged/amazon-web-services)의 정보도 항상 최신은 아니다.
 
-This guide is by and for engineers who use AWS. It aims to be a useful, living reference that consolidates links, tips, gotchas, and best practices. It arose from discussion and editing over beers by [several engineers](AUTHORS.md) who have used AWS extensively.
+이 가이드는 AWS를 사용하는 엔지니어를 위한 것 입니다. 이 문서는 링크, 팁, 주의사항, 실용적인 정보를 통합하여 일상에 참조가 되는 것을 목표로 하고 있습니다. 이 문서는 AWS를 폭넓게 사용하는 [개발자들](AUTHORS.md)에 의해서 비공식적인 토론과 수정 과정에서 제기되었다.
 
-Before using the guide, please read the [**license**](#license) and [**disclaimer**](#disclaimer).
+이 가이드를 이용하기 전에, [**라이센스**](#license)와 [**책임의 한계(disclaimer)**](#disclaimer)를 읽어보세요.
 
-### Please help!
+### 도움말!
 
-**This is an early in-progress draft!** It’s our first attempt at assembling this information, so is far from comprehensive still, and likely to have omissions or errors.
+**이 문서는 초안입니다!** 이 문서는 이 정보들을 모으는 우리의 첫 시도이다. 따라서 오류나 누락이 있을 수 있다.
 
 [![Slack Chat](https://img.shields.io/badge/Chat-Slack-ff69b4.svg "Join us. Anyone is welcome!")](https://og-aws.slack.lexikon.io/) [![Ask a Question](https://img.shields.io/badge/%3f-Ask%20a%20Question-dc9d47.svg "Questions help improve the Guide")](https://airtable.com/shrXZ61VrovWfXYBg)
 
-Please help by [**joining the Slack channel**](https://og-aws.slack.lexikon.io/) to talk about AWS (anyone is welcome, even if you only have questions!), [**submitting a question**](https://airtable.com/shrXZ61VrovWfXYBg), or [**contributing to the guide**](CONTRIBUTING.md). This guide is *open to contributions*, so unlike a blog, it can keep improving. Like any open source effort, we combine efforts but also review to ensure high quality.
+AWS에 대한 이야기할 [**슬랙 채널**](https://og-aws.slack.lexikon.io/)에 조인하여 도와주세요!(질문만 있는 사람도 누구나 환영입니다!), [**submitting a question**](https://airtable.com/shrXZ61VrovWfXYBg), or [**contributing to the guide**](CONTRIBUTING.md). This guide is *open to contributions*, so unlike a blog, it can keep improving. Like any open source effort, we combine efforts but also review to ensure high quality.
 
 Scope
 -----
