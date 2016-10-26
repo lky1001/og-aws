@@ -167,32 +167,32 @@ General Information
         -       Azure's [list of customers](https://azure.microsoft.com/en-us/case-studies/) includes companies such as NBC Universal, 3M and Honeywell Inc.
 	-	Google Cloud’s [list of customers](https://cloud.google.com/customers/) is large as well, and includes a few mainstream sites, such as [Snapchat](http://www.businessinsider.com/snapchat-is-built-on-googles-cloud-2014-1), Best Buy, Domino’s, and Sony Music.
 
-### Which Services to Use
+### 어느 서비스를 사용할 것인가
 
--	AWS offers a *lot* of different services — [about fifty](https://aws.amazon.com/products/) at last count.
--	Most customers use a few services heavily, a few services lightly, and the rest not at all. What services you’ll use depends on your use cases. Choices differ substantially from company to company.
--	**Immature and unpopular services:** Just because AWS has a service that sounds promising, it doesn’t mean you should use it. Some services are very narrow in use case, not mature, are overly opinionated, or have limitations, so building your own solution may be better. We try to give a sense for this by breaking products into categories.
--	**Must-know infrastructure:** Most typical small to medium-size users will focus on the following services first. If you manage use of AWS systems, you likely need to know at least a little about all of these. (Even if you don’t use them, you should learn enough to make that choice intelligently.)
-	-	[IAM](#security-and-iam): User accounts and identities (you need to think about accounts early on!)
-	-	[EC2](#ec2): Virtual servers and associated components, including:
-		-	[AMIs](#amis): Machine Images
-		-	[Load Balancers](#load-balancers): CLBs and ALBs
-		-	[Autoscaling](#auto-scaling): Capacity scaling (adding and removing servers based on load)
-		-	[EBS](#ebs): Network-attached disks
-		-	[Elastic IPs](#elastic-ips): Assigned IP addresses
-	-	[S3](#s3): Storage of files
-	-	[Route 53](#route-53): DNS and domain registration
-	-	[VPC](#vpcs-network-security-and-security-groups): Virtual networking, network security, and co-location; you automatically use
-	-	[CloudFront](#cloudfront): CDN for hosting content
-	-	[CloudWatch](https://aws.amazon.com/cloudwatch/): Alerts, paging, monitoring
--	**Managed services:** Existing software solutions you could run on your own, but with managed deployment:
-	-	[RDS](#rds): Managed relational databases (managed MySQL, Postgres, and Amazon’s own Aurora database)
-	-	[EMR](#emr): Managed Hadoop
-	-	[Elasticsearch](https://aws.amazon.com/elasticsearch-service/): Managed Elasticsearch
-	-	[ElastiCache](https://aws.amazon.com/elasticache/): Managed Redis and Memcached
--	**Optional but important infrastructure:** These are key and useful infrastructure components that are less widely known and used. You may have legitimate reasons to prefer alternatives, so evaluate with care to be sure they fit your needs:
-	-	⛓[Lambda](#lambda): Running small, fully managed tasks “serverless”
-	-	[CloudTrail](https://aws.amazon.com/cloudtrail/): AWS API logging and audit (often neglected but important)
+-	AWS는 *많은* 다양한 서비스를 제공한다. — [최근 센 것은 50여개](https://aws.amazon.com/products/).
+-	대부분의 고객들은 다수의 서비스는 심도 있게, 다수의 서비스는 가볍게 사용하며 다른 것은 전혀 사용하지 않습니다. 어떤 서비스를 사용할지는 독자의 케이스에 따라 달라집니다. 선택은 대체로 회사에 따라 다릅니다.
+-	**미숙하고 인기 없는 서비스:** AWS에서 유망한 서비스라는 것을 독자가 꼭 사용해야 하는 것은 아닙니다. Some services are very narrow in use case, not mature, are overly opinionated, or have limitations, so building your own solution may be better. We try to give a sense for this by breaking products into categories.
+-	**꼭 알아야할 인프라:** 전형적으로 중소 규모의 사용자들은 먼저 다음과 같은 서비스에 초점을 맞출 것 입니다. 당신이 AWS 시스템을 관리하는 경우, 이것들에 대해 조금이라도 알 필요가 있을 것입니다. (당신이 이것들을 사용하지 않더라도, 총명하게 이것들을 선택할 수 있도록 알아야 합니다.)
+	-	[IAM](#security-and-iam): 사용자 계정과 고유 식별 (초기에 계정에 대해 생각해야합니다!)
+	-	[EC2](#ec2): 아래를 포함하는 가상 버서 및 연관 컴포넌트:
+		-	[AMIs](#amis): 가상 머신 이미지
+		-	[Load Balancers](#load-balancers): 클래식 로드 발란서와 애플리케이션 로드 발란서
+		-	[Autoscaling](#auto-scaling): 수용능력 확장(Capacity scaling) (부하 기반의 서버 추가, 삭제)
+		-	[EBS](#ebs): EC2에 사용하는 네트워크로 연결된 디스크
+		-	[Elastic IPs](#elastic-ips): 공인 IP 주소 할당
+	-	[S3](#s3): 파일 저장소
+	-	[Route 53](#route-53): DNS 서버 및 도메인 등록 제공
+	-	[VPC](#vpcs-network-security-and-security-groups): 가상 네트워크, 네트워크 보안, co-location; 자동으로 사용하게 됩니다
+	-	[CloudFront](#cloudfront): 호스팅된 컨텐츠의 CDN
+	-	[CloudWatch](https://aws.amazon.com/cloudwatch/): EC2에 대한 알람, 페이징, 모니터링
+-	**관리되는 서비스(managed services):** 기존의 소프트웨어 솔루션을 직접 실행할 수 있으나 배포는 관리됩니다:
+	-	[RDS](#rds): 관리되는 관계형 데이터베이스(Managed relational databases) (MySQL, Postgres, 아마존 오로라 디비)
+	-	[EMR](#emr): 관리되는 하둡(Managed Hadoop)
+	-	[Elasticsearch](https://aws.amazon.com/elasticsearch-service/): 관리되는 엘라스틱서치(Managed Elasticsearch)
+	-	[ElastiCache](https://aws.amazon.com/elasticache/): 관리되는 레디스와 멤캐시드(Managed Redis and Memcached)
+-	**선택사항이지만 중요한 인프라:** 다음은 덜 알려지고 사용되지만 중요하고 유용한 인프라 입니다. You may have legitimate reasons to prefer alternatives, so evaluate with care to be sure they fit your needs:
+	-	⛓[Lambda](#lambda): 작게 실행되고, “서버리스”로 전체적으로 관리되는 작업
+	-	[CloudTrail](https://aws.amazon.com/cloudtrail/): AWS API 호출을 기록하고 감사 수행(audit) (흔히 무시하지만 중요)
 	-	⛓🕍[CloudFormation](#cloudformation): Templatized configuration of collections of AWS resources
 	-	🕍[Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/): Fully managed (PaaS) deployment of packaged Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker applications
 	-	🐥⛓[EFS](https://aws.amazon.com/efs/): Network filesystem
