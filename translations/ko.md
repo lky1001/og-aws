@@ -119,29 +119,29 @@ AWS에 대한 이야기할 [**슬랙 채널**](https://og-aws.slack.lexikon.io/)
 -	📗📘📙 각 색깔은 기본, 팁, 주의사항임.
 -	🚧 정정, 개선이 필요한 부분(이슈에 대한 링크가 있을 수 있음. 도와주세요!)
 
-General Information
+일반적 정보
 -------------------
 
-### When to Use AWS
+### 언제 AWS 를 쓰는가
 
--	[AWS](https://en.wikipedia.org/wiki/Amazon_Web_Services) is the dominant public cloud computing provider.
-	-	In general, “[cloud computing](https://en.wikipedia.org/wiki/Cloud_computing)” can refer to one of three types of cloud: “public,” “private,” and “hybrid.” AWS is a public cloud provider, since anyone can use it. Private clouds are within a single (usually large) organization. Many companies use a hybrid of private and public clouds.
-	-	The core features of AWS are [infrastructure-as-a-service](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29) (IaaS) — that is, virtual machines and supporting infrastructure. Other cloud service models include [platform-as-a-service](https://en.wikipedia.org/wiki/Cloud_computing#Platform_as_a_service_.28PaaS.29) (PaaS), which typically are more fully managed services that deploy customers’ applications, or [software-as-a-service](https://en.wikipedia.org/wiki/Cloud_computing#Software_as_a_service_.28SaaS.29) (SaaS), which are cloud-based applications. AWS does offer a few products that fit into these other models, too.
-	-	In business terms, with infrastructure-as-a-service you have a variable cost model — it is [OpEx, not CapEx](http://www.investopedia.com/ask/answers/020915/what-difference-between-capex-and-opex.asp) (though some [pre-purchased contracts](https://aws.amazon.com/ec2/purchasing-options/reserved-instances/) are still CapEx).
--	AWS revenue was [about $5 billion as of 2015](https://awsinsider.net/articles/2015/04/23/amazon-earnings-q1-2015.aspx) (roughly a fifth of Amazon.com’s total revenue).
--	**Main reasons to use AWS:**
-	-	If your company is building systems or products that may need to scale
-	-	and you have technical know-how
-	-	and you want the most flexible tools
-	-	and you’re not significantly tied into different infrastructure already
-	-	and you don’t have internal, regulatory, or compliance reasons you can’t use a public cloud-based solution
-	-	and you’re not on a Microsoft-first tech stack
-	-	and you don’t have a specific reason to use Google Cloud
-	-	and you can afford, manage, or negotiate its somewhat higher costs
-	-	... then AWS is likely a good option for your company.
--	Each of those reasons above might point to situations where other services are preferable. In practice, many, if not most, tech startups as well as a number of modern large companies can or already do benefit from using AWS. Many large enterprises are partly migrating internal infrastructure to Azure, Google Cloud, and AWS.
--	**Costs:** Billing and cost management are such big topics that we have [an entire section on this](#billing-and-cost-management).
--	🔹**EC2 vs. other services:** Most users of AWS are most familiar with [EC2](#ec2), AWS’ flagship virtual server product, and possibly a few others like S3 and CLBs. But AWS products now extend far beyond basic IaaS, and often companies do not properly understand or appreciate all the many AWS services and how they can be applied, due to the [sharply growing](#which-services-to-use) number of services, their novelty and complexity, branding confusion, and fear of ⛓lock-in to proprietary AWS technology. Although a bit daunting, it’s important for technical decision-makers in companies to understand the breadth of the AWS services and make informed decisions. (We hope this guide will help.)
+-	[AWS](https://en.wikipedia.org/wiki/Amazon_Web_Services) 는 가장 유력한 클라우드 컴퓨팅 제공업체이다.
+	-	보통, “[클라우드 컴퓨팅](https://en.wikipedia.org/wiki/Cloud_computing)” 은 다음 세가지 타입의 클라우드 중 하나이다: “공개(public),” “사적(private),” and “병합(hybrid)”.  AWS 는 누구나 쓸수 있기 때문에 공개적 클라우드 제공업체이다. 사적  클라우드는 (보통 큰) 조직에 속해 있다. 많은 회사들이 공개 / 사적 클라우드를 병합해서 쓰고 있다.
+	-	AWS 의 핵심 기능은 [infrastructure-as-a-service](https://en.wikipedia.org/wiki/Cloud_computing#Infrastructure_as_a_service_.28IaaS.29) (IaaS) — 가상머신과 기반 구조에 대한 지원. 다른 클라우드 서비스 모델에는 다음과 같은 것들이 있다.  [platform-as-a-service](https://en.wikipedia.org/wiki/Cloud_computing#Platform_as_a_service_.28PaaS.29) (PaaS) - 일반적으로 고객의 애플리케이션을 배포하기위해, 더 완전히 관리되는 서비스, [software-as-a-service](https://en.wikipedia.org/wiki/Cloud_computing#Software_as_a_service_.28SaaS.29) (SaaS) - 클라우드에 올려진 애플리케이션. AWS 는 이런 다른 클라우드 서비스 모델들도 몇몇 지원 한다.
+	-	비지니스 관점에서, infrastructure-as-a-service 는 다양한 과금 모델이 있다. — AWS는 [OpEx이고, CapEx가 아니다](http://www.investopedia.com/ask/answers/020915/what-difference-between-capex-and-opex.asp) (하지만 몇몇 [선불 계약(pre-purchased contracts)](https://aws.amazon.com/ec2/purchasing-options/reserved-instances/) 은 CapEx 이다).
+-	AWS 의 수익은 [약 $5 billion, 2015 현재](https://awsinsider.net/articles/2015/04/23/amazon-earnings-q1-2015.aspx) (대략 Amazon.com 의 전체 수익의 5번째).
+-	**AWS를 사용하는 주요 이유:**
+	-	당신의 회사가 구축하는 시스템이나 제품이 확장 가능성이 있을때
+	-	그리고 당신이 기술적 노하우가 있을때
+	-	그리고 당신이 가장 유연한 도구를 원할때
+	-	그리고 당신이 다른 기반구조에 이미 크게 묶여있지 않을때
+	-	그리고 당신이 클라우드 기반 솔루션을 사용하는데에 내부적, 규제, 컴플라이언스 문제가 없을때
+	-	그리고 당신이 Microsoft 우선의 기술 스택을 갖고 있지 않을때
+	-	그리고 당신이 Google Cloud 를 사용해야되는 특별한 이유가 없을 때
+	-	그리고 당신이 AWS 를 사용하는 데 발생하는 다소의 비용을 감당할 여력이 있거나, 관리 가능하거나, 협상 가능할 때
+	-	... 그러면 AWS는 당신의 회사에 좋은 옵션이 될 것이다.
+-	위에 나열된 이유들은 각각 다른 서비스가 더 나을 수 있음을 말해 준다. 실제적으로 많은 (대다수는 아닐수 있지만) tech 스타트업과 큰 회사들은 AWS 를 사용함으로써 이익을 얻고 있거나 얻을 수 있다. 많은 대기업들이 부분적으로 내부 기반구조를 Azure, Google Cloud, AWS 로 이전하고 있다.
+-	**가격:** 비용과 청구서 관리는 가장 큰 토픽이다. [여기에 한 섹션 전체를 할당했다](#billing-and-cost-management).
+-	🔹**EC2 vs. 다른 서비스:** AWS 의 대부분의 유저는 [EC2](#ec2)(AWS의 주력 가상 서버 제품)과 친숙 하다. 그리고 그 외에 S3와 CLB 등이 있다. 그러나 AWS 의 제품들은 이제 기본적인 Iaas 를 넘어서 확장 되었다. 그리고 회사들은 종종 많은 AWS 서비스들에 대해서 잘 이해하지 못하거나, 그 가치를 알지 못하고 어떻게 적용할 수 있는지 알지 못한다. 그 이유로는 서비스의 종류, 참신함, 복잡함, 브랜드 혼동, AWS 독점기술에 대해 ⛓ 묶이는 것에 대한 공포심이  [급격히 증가중](#which-services-to-use) 이기 때문이다. 비록 좀 곤란하지만, 회사 내 기술 의사결정권자들은 AWS 서비스를 넓게 이해하고 자세한 정보에 근거한 결정을 내리는 것이 중요하다. (우리는 이 가이드가 도움이 되길 바랍니다)
 -	🚪**AWS vs. other cloud providers:** While AWS is the dominant IaaS provider (31% market share in [this 2016 estimate](https://www.srgresearch.com/articles/aws-remains-dominant-despite-microsoft-and-google-growth-surges)), there is significant competition and alternatives that are better suited to some companies. [This Gartner report](https://www.gartner.com/doc/reprints?id=1-2G2O5FC&ct=150519&st=sb) has a good overview of the major cloud players :
 	-	[**Google Cloud**](https://cloud.google.com/). It arrived later to market than AWS, but has vast resources and is now used widely by many companies, including a few large ones. It is gaining market share. Not all AWS services have similar or analogous services in Google Cloud. And vice versa: In particular Google offers some more advanced machine learning-based services like the [Vision](https://cloud.google.com/vision/), [Speech](https://cloud.google.com/speech/), and [Natural Language](https://cloud.google.com/natural-language/) APIs. It’s not common to switch once you’re up and running, but it does happen: [Spotify migrated](http://www.wsj.com/articles/google-cloud-lures-amazon-web-services-customer-spotify-1456270951) from AWS to Google Cloud. There is more discussion [on Quora](https://www.quora.com/What-are-the-reasons-to-choose-AWS-over-Google-Cloud-or-vice-versa-for-a-high-traffic-web-application) about relative benefits.
 	-	[**Microsoft Azure**](https://azure.microsoft.com/en) is the de facto choice for companies and teams that are focused on a Microsoft stack, and it has now placed significant emphasis on Linux as well
