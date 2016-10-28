@@ -193,25 +193,25 @@ AWS에 대한 이야기할 [**슬랙 채널**](https://og-aws.slack.lexikon.io/)
 -	**선택사항이지만 중요한 인프라:** 아래는 덜 알려져 있고 덜 사용되고 있으나 중요하고 유용한 인프라 요소들입니다. 물론 다른 대안 요소들을 사용하는 독자 나름의 타당한 이유가 있을 수 있으므로, 아래 요소들이 당신의 요구 사항을 충족시킬 수 있는 지 면밀히 검증하기 바랍니다:
 	-	⛓[Lambda](#lambda): 작게 실행되고, “서버리스”로 전체적으로 관리되는 작업
 	-	[CloudTrail](https://aws.amazon.com/cloudtrail/): AWS API 호출을 기록하고 감사 수행(audit) (흔히 무시하지만 중요)
-	-	⛓🕍[CloudFormation](#cloudformation): Templatized configuration of collections of AWS resources
-	-	🕍[Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/): Fully managed (PaaS) deployment of packaged Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker applications
-	-	🐥⛓[EFS](https://aws.amazon.com/efs/): Network filesystem
-	-	⛓🕍[ECS](#ecs): Docker container/cluster management (note Docker can also be used directly, without ECS)
-	-	⛓[ECR](https://aws.amazon.com/ecr/): Hosted private Docker registry
-	-	🐥[Config](https://aws.amazon.com/config/): AWS configuration inventory, history, change notifications
--	**Special-purpose infrastructure:** These services are focused on specific use cases and should be evaluated if they apply to your situation. Many also are proprietary architectures, so tend to tie you to AWS.
-	-	⛓[DynamoDB](#dynamodb): Low-latency NoSQL key-value store
-	-	⛓[Glacier](#glacier): Slow and cheap alternative to S3
-	-	⛓[Kinesis](https://aws.amazon.com/kinesis/): Streaming (distributed log) service
-	-	⛓[SQS](https://aws.amazon.com/sqs/): Message queueing service
-	-	⛓[Redshift](#redshift): Data warehouse
-	-	🐥[QuickSight](https://aws.amazon.com/quicksight/): Business intelligence service
-	-	[SES](https://aws.amazon.com/ses/): Send and receive e-mail for marketing or transactions
-	-	⛓[API Gateway](https://aws.amazon.com/api-gateway/): Proxy, manage, and secure API calls
-	-	⛓[IoT](https://aws.amazon.com/iot/): Manage bidirectional communication over HTTP, WebSockets, and MQTT between AWS and clients (often but not necessarily “things” like appliances or sensors)
-	-	⛓[WAF](https://aws.amazon.com/waf/): Web firewall for CloudFront to deflect attacks
-	-	⛓[KMS](#kms): Store and manage encryption keys securely
-	-	[Inspector](https://aws.amazon.com/inspector/): Security audit
+	-	⛓🕍[CloudFormation](#cloudformation): AWS 리소스 템플릿 구성(Templatized configuration) 모음
+	-	🕍[Elastic Beanstalk](https://aws.amazon.com/elasticbeanstalk/): 완전관리형(PaaS) 자바, 닷넷, PHP, Node.js, 파이썬, 루비, Go, 도커 애플리케이션 패키지 배포 서비스
+	-	🐥⛓[EFS](https://aws.amazon.com/efs/): 네트워크 파일 시스템
+	-	⛓🕍[ECS](#ecs): 도커 컨테이너/클러스터 관리 (도커는 ECS없이 직접 사용할 수도 있습니다.)
+	-	⛓[ECR](https://aws.amazon.com/ecr/): 사설 도커 레지스트리 서비스
+	-	🐥[Config](https://aws.amazon.com/config/): AWS 리소스 인벤토리, 구성 기록, 구성 변경 알림 서비스
+-	**특수 인프라:** 이 서비스들은 특별한 케이스에 맞춰져 있으며, 이것들을 당신의 상홍에 적용했을 경우 평가해야 한다.
+	-	⛓[DynamoDB](#dynamodb): 저 지연(Low-latency) NoSQL 키-밸류 저장소
+	-	⛓[Glacier](#glacier): S3보다 느리고 저렴한 대체제
+	-	⛓[Kinesis](https://aws.amazon.com/kinesis/): 스트리밍 (분산 로그) 서비스
+	-	⛓[SQS](https://aws.amazon.com/sqs/): 메시지 큐 서비스
+	-	⛓[Redshift](#redshift): 데이터 웨어하우스
+	-	🐥[QuickSight](https://aws.amazon.com/quicksight/): 비즈니스 인텔리전스(BI) 서비스
+	-	[SES](https://aws.amazon.com/ses/): 마케팅 또는 거래(transactions)용 이메일 송.수신 서비스
+	-	⛓[API Gateway](https://aws.amazon.com/api-gateway/): API요청을 관리, 보안, 대신해주는 서비스
+	-	⛓[IoT](https://aws.amazon.com/iot/): AWS와 클라이언트 사이에 HTTP, 웹소켓, MQTT로 양방향 통신을 해주는 서비스(기기나 센서같은 "사물(things)"는 필요하지 않음)
+	-	⛓[WAF](https://aws.amazon.com/waf/): 클라우드 프론트 공격을 회피하는 웹 방화벽
+	-	⛓[KMS](#kms): 암호키를 안전하게 저장 관리해주는 서비스
+	-	[Inspector](https://aws.amazon.com/inspector/): 보안 평가(audit)
 	-	[Trusted Advisor](https://aws.amazon.com/premiumsupport/trustedadvisor/): Automated tips on reducing cost or making improvements
 -	**Compound services:** These are similarly specific, but are full-blown services that tackle complex problems and may tie you in. Usefulness depends on your requirements. If you have large or significant need, you may have these already managed by in-house systems and engineering teams.
 	-	[Machine Learning](https://aws.amazon.com/machine-learning/): Machine learning model training and classification
