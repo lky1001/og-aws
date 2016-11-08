@@ -215,14 +215,14 @@ AWS에 대한 이야기할 [**슬랙 채널**](https://og-aws.slack.lexikon.io/)
 	-	[Trusted Advisor](https://aws.amazon.com/premiumsupport/trustedadvisor/): Automated tips on reducing cost or making improvements
 -	**Compound services:** These are similarly specific, but are full-blown services that tackle complex problems and may tie you in. Usefulness depends on your requirements. If you have large or significant need, you may have these already managed by in-house systems and engineering teams.
 	-	[Machine Learning](https://aws.amazon.com/machine-learning/): Machine learning model training and classification
-	-	⛓🕍[Data Pipeline](https://aws.amazon.com/datapipeline/): Managed ETL service
+	-	⛓🕍[Data Pipeline](https://aws.amazon.com/datapipeline/): 관리도는 ETL 서비스
 	-	⛓🕍[SWF](https://aws.amazon.com/swf/): Managed state tracker for distributed polyglot job workflow
-	-	⛓🕍[Lumberyard](https://aws.amazon.com/lumberyard/): 3D game engine
+	-	⛓🕍[Lumberyard](https://aws.amazon.com/lumberyard/): 3D 게임 엔진
 -	**Mobile/app development:**
-	-	[SNS](https://aws.amazon.com/sns/): Manage app push notifications and other end-user notifications
-	-	⛓🕍[Cognito](https://aws.amazon.com/cognito/): User authentication via Facebook, Twitter, etc.
-	-	[Device Farm](https://aws.amazon.com/device-farm/): Cloud-based device testing
-	-	[Mobile Analytics](https://aws.amazon.com/mobileanalytics/): Analytics solution for app usage
+	-	[SNS](https://aws.amazon.com/sns/): 관리되는 앱 푸시 알림 또는 사용자 알림들
+	-	⛓🕍[Cognito](https://aws.amazon.com/cognito/): 페이스북, 트위터 등 유저 인증
+	-	[Device Farm](https://aws.amazon.com/device-farm/): 클라우드 기반 디바이스 테스트
+	-	[Mobile Analytics](https://aws.amazon.com/mobileanalytics/): 앱 사용에 대한 분석 솔루션
 	-	🕍[Mobile Hub](https://aws.amazon.com/mobile/): Comprehensive, managed mobile app framework
 -	**Enterprise services:** These are relevant if you have significant corporate cloud-based or hybrid needs. Many smaller companies and startups use other solutions, like Google Apps or Box. Larger companies may also have their own non-AWS IT solutions.
 	-	[AppStream](https://aws.amazon.com/appstream/): Windows apps in the cloud, with access from many devices
