@@ -212,34 +212,34 @@ AWS에 대한 이야기할 [**슬랙 채널**](https://og-aws.slack.lexikon.io/)
 	-	⛓[WAF](https://aws.amazon.com/waf/): 클라우드 프론트 공격을 회피하는 웹 방화벽
 	-	⛓[KMS](#kms): 암호키를 안전하게 저장 관리해주는 서비스
 	-	[Inspector](https://aws.amazon.com/inspector/): 보안 평가(audit)
-	-	[Trusted Advisor](https://aws.amazon.com/premiumsupport/trustedadvisor/): Automated tips on reducing cost or making improvements
--	**Compound services:** These are similarly specific, but are full-blown services that tackle complex problems and may tie you in. Usefulness depends on your requirements. If you have large or significant need, you may have these already managed by in-house systems and engineering teams.
-	-	[Machine Learning](https://aws.amazon.com/machine-learning/): Machine learning model training and classification
-	-	⛓🕍[Data Pipeline](https://aws.amazon.com/datapipeline/): 관리도는 ETL 서비스
-	-	⛓🕍[SWF](https://aws.amazon.com/swf/): Managed state tracker for distributed polyglot job workflow
+	-	[Trusted Advisor](https://aws.amazon.com/premiumsupport/trustedadvisor/): 비용 계산이나 개선을 위한 자동 팁
+-	**복합(Compound) 서비스:** These are similarly specific, but are full-blown services that tackle complex problems and may tie you in. 유용한지는 요구사항에 따라 다릅니다. 거대하거나 중요한 것은 사애 시스템이나 엔지니어링 팀에 의해서 이미 관리될 것입니다.
+	-	[Machine Learning](https://aws.amazon.com/machine-learning/): 기계학습(Machine learning) 모델 훈련 및 분류
+	-	⛓🕍[Data Pipeline](https://aws.amazon.com/datapipeline/): 관리되는 ETL 서비스
+	-	⛓🕍[SWF](https://aws.amazon.com/swf/): 관리되는 분산 백그라운드 작업의 구축 및 상태 추적
 	-	⛓🕍[Lumberyard](https://aws.amazon.com/lumberyard/): 3D 게임 엔진
--	**Mobile/app development:**
+-	**모바일/앱 개발:**
 	-	[SNS](https://aws.amazon.com/sns/): 관리되는 앱 푸시 알림 또는 사용자 알림들
 	-	⛓🕍[Cognito](https://aws.amazon.com/cognito/): 페이스북, 트위터 등 유저 인증
 	-	[Device Farm](https://aws.amazon.com/device-farm/): 클라우드 기반 디바이스 테스트
 	-	[Mobile Analytics](https://aws.amazon.com/mobileanalytics/): 앱 사용에 대한 분석 솔루션
-	-	🕍[Mobile Hub](https://aws.amazon.com/mobile/): Comprehensive, managed mobile app framework
--	**Enterprise services:** These are relevant if you have significant corporate cloud-based or hybrid needs. Many smaller companies and startups use other solutions, like Google Apps or Box. Larger companies may also have their own non-AWS IT solutions.
-	-	[AppStream](https://aws.amazon.com/appstream/): Windows apps in the cloud, with access from many devices
-	-	[Workspaces](https://aws.amazon.com/workspaces/): Windows desktop in the cloud, with access from many devices
-	-	[WorkDocs](https://aws.amazon.com/workdocs/) (formerly Zocalo): Enterprise document sharing
-	-	[WorkMail](https://aws.amazon.com/workmail/): Enterprise managed e-mail and calendaring service
-	-	[Directory Service](https://aws.amazon.com/directoryservice/): Microsoft Active Directory in the cloud
-	-	[Direct Connect](https://aws.amazon.com/directconnect/): Dedicated network connection between office or data center and AWS
-	-	[Storage Gateway](https://aws.amazon.com/storagegateway/): Bridge between on-premises IT and cloud storage
-	-	[Service Catalog](https://aws.amazon.com/servicecatalog/): IT service approval and compliance
--	**Probably-don't-need-to-know services:** Bottom line, our informal polling indicates these services are just not broadly used — and often for good reasons:
-	-	[Snowball](https://aws.amazon.com/importexport/): If you want to ship petabytes of data into or out of Amazon using a physical appliance, read on.
-	-	[CodeCommit](https://aws.amazon.com/codecommit/): Git service. You’re probably already using GitHub or your own solution ([Stackshare](http://stackshare.io/stackups/github-vs-bitbucket-vs-aws-codecommit) has informal stats).
-	-	🕍[CodePipeline](https://aws.amazon.com/codepipeline/): Continuous integration. You likely have another solution already.
-	-	🕍[CodeDeploy](https://aws.amazon.com/codedeploy/): Deployment of code to EC2 servers. Again, you likely have another solution.
-	-	🕍[OpsWorks](https://aws.amazon.com/opsworks/): Management of your deployments using Chef. While Chef is popular, it seems few people use OpsWorks, since it involves going in on a whole different code deployment framework.
--	[AWS in Plain English](https://www.expeditedssl.com/aws-in-plain-english) offers more friendly explanation of what all the other different services are.
+	-	🕍[Mobile Hub](https://aws.amazon.com/mobile/): 관리되는 포괄적인 모바일 앱 프레임워크
+-	**엔터프라이즈 서비스:** 중요한 기업에서 클라우드 기반이나 하이브리드의 요구가 있으면 이들이 적합하다. 많은 소규모 회사들이나 스타트업은 구글 앱스나 박스 같은 다른 솔루션을 사용한다. 큰 기업들 역시 AWS IT 솔루션이 아닌 자체 솔루션을 가지고 있다.
+	-	[AppStream](https://aws.amazon.com/appstream/): 다양한 디바이스에서 접근할 수 있는 클라우드 상의 윈도우 앱
+	-	[Workspaces](https://aws.amazon.com/workspaces/): 다양한 디바이스에서 접근할 수 있는 클라우드 상의 윈도우 데스크탑
+	-	[WorkDocs](https://aws.amazon.com/workdocs/) (이전의 Zocalo): 엔터프라이즈 문서 공유 서비스
+	-	[WorkMail](https://aws.amazon.com/workmail/): 관리되는 엔터프라이즈 이메일, 일정 서비스
+	-	[Directory Service](https://aws.amazon.com/directoryservice/): 클라우드 상의 Microsoft Active Directory
+	-	[Direct Connect](https://aws.amazon.com/directconnect/): 사무실이나 데이터 센터와 아마존 사이의 전용 네트워크 연결
+	-	[Storage Gateway](https://aws.amazon.com/storagegateway/): 사내 IT와 클라우드 스토리지 사이의 연결 통로
+	-	[Service Catalog](https://aws.amazon.com/servicecatalog/): IT 서비스 승인 및 규정 서비스
+-	**알 필요 없을 것 같은 서비스:** Bottom line, our informal polling indicates these services are just not broadly used — and often for good reasons:
+	-	[Snowball](https://aws.amazon.com/importexport/): 물리적인 기기로 페타바이트의 데이터를 아마존으로 보내거나 가져오고 싶으면 읽어보세요.
+	-	[CodeCommit](https://aws.amazon.com/codecommit/): 깃 서비스. 아마 깃허브나 다른 솔루션을 이미 사용하고 있을 것이다. ([Stackshare](http://stackshare.io/stackups/github-vs-bitbucket-vs-aws-codecommit) 비공식 통계).
+	-	🕍[CodePipeline](https://aws.amazon.com/codepipeline/): 지속적 통합. 이미 다른 솔루션을 사용하고 있을 것이다.
+	-	🕍[CodeDeploy](https://aws.amazon.com/codedeploy/): EC2 서버들에 코드 배포. 역시 이미 다른 솔루션을 사용하고 있을 것이다.
+	-	🕍[OpsWorks](https://aws.amazon.com/opsworks/): 쉐프(Chef)를 이용한 배포 관리. 쉐프는 인기 있지만, 소수만 OpsWorks를 사용하는 것 처럼 보이며, 다른 모든 코드 배포 프레임워크에 포함한다.
+-	[AWS in Plain English](https://www.expeditedssl.com/aws-in-plain-english) 모든 서비스가 무엇인지 친절히 설명해준다.
 
 ### Tools and Services Market Landscape
 
