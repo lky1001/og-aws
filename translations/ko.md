@@ -233,7 +233,7 @@ AWS에 대한 이야기할 [**슬랙 채널**](https://og-aws.slack.lexikon.io/)
 	-	[Direct Connect](https://aws.amazon.com/directconnect/): 사무실이나 데이터 센터와 아마존 사이의 전용 네트워크 연결
 	-	[Storage Gateway](https://aws.amazon.com/storagegateway/): 사내 IT와 클라우드 스토리지 사이의 연결 통로
 	-	[Service Catalog](https://aws.amazon.com/servicecatalog/): IT 서비스 승인 및 규정 서비스
--	**알 필요 없을 것 같은 서비스:** Bottom line, our informal polling indicates these services are just not broadly used — and often for good reasons:
+-	**알 필요 없을 것 같은 서비스:** 아래는 우리의 비공식 투표로 광범위하게 쓰이지 않을 것 같은 서비스들이며 그 이유가 있다:
 	-	[Snowball](https://aws.amazon.com/importexport/): 물리적인 기기로 페타바이트의 데이터를 아마존으로 보내거나 가져오고 싶으면 읽어보세요.
 	-	[CodeCommit](https://aws.amazon.com/codecommit/): 깃 서비스. 아마 깃허브나 다른 솔루션을 이미 사용하고 있을 것이다. ([Stackshare](http://stackshare.io/stackups/github-vs-bitbucket-vs-aws-codecommit) 비공식 통계).
 	-	🕍[CodePipeline](https://aws.amazon.com/codepipeline/): 지속적 통합. 이미 다른 솔루션을 사용하고 있을 것이다.
@@ -241,7 +241,7 @@ AWS에 대한 이야기할 [**슬랙 채널**](https://og-aws.slack.lexikon.io/)
 	-	🕍[OpsWorks](https://aws.amazon.com/opsworks/): 쉐프(Chef)를 이용한 배포 관리. 쉐프는 인기 있지만, 소수만 OpsWorks를 사용하는 것 처럼 보이며, 다른 모든 코드 배포 프레임워크에 포함한다.
 -	[AWS in Plain English](https://www.expeditedssl.com/aws-in-plain-english) 모든 서비스가 무엇인지 친절히 설명해준다.
 
-### Tools and Services Market Landscape
+### 툴과 서비스 마켓 구성(Landscape)
 
 There are now enough cloud and “big data” enterprise companies and products that few can keep up with the market landscape. (See the [Big Data Evolving Landscape – 2016](https://practicalanalytics.co/2016/02/09/big-data-evolving-landscape-2016/) for one attempt at this.)
 
@@ -252,7 +252,7 @@ We’ve assembled a landscape of a few of the services. This is far from complet
 🚧 *Suggestions to improve this figure? Please [file an issue](CONTRIBUTING.md).*
 
 
-### Common Concepts
+### 공통 컨셉
 
 -	📒 The AWS [**General Reference**](https://docs.aws.amazon.com/general/latest/gr/Welcome.html) covers a bunch of common concepts that are relevant for multiple services.
 -	AWS allows deployments in [**regions**](https://docs.aws.amazon.com/general/latest/gr/rande.html), which are isolated geographic locations that help you reduce latency or offer additional redundancy (though typically availability zones are the first tool of choice for [high availability](#high-availability)).
